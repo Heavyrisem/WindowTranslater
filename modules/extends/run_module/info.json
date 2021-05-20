@@ -1,0 +1,5 @@
+{
+    "name": "터미널",
+    "start": "runprocess.js",
+    "keyword": ["터미널", "terminal", "cmd"]
+}

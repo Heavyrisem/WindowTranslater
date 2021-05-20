@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script>
+            const { ipcRenderer, shell } = require('electron');
+            let hided = true;
+            
+            window.onload = function () {
+                show_bar();
+                document.getElementById("input_bar").focus();
+            }
+        </script>
+        <script src="./index.js"></script>
+        <script src="./event.js"></script>
+    </head>
+    <body>
+        <div class="inputBar" id="inputRoot">
+            <input id="input_bar" type="text" onkeydown="input_event();">
+            <span id="cls" class="cls" onclick="hide_bar();">×</span>
+        </div>
+        <ul id="card" class="flipCard">
+        </ul>
+    </body>
+</html>

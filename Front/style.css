@@ -1,0 +1,111 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    /* height: 100vh;     */
+    font-family: 'Montserrat', 'Noto Sans KR', Arial, sans-serif;
+    background-color: rgba(187, 187, 187, 0.522);
+    color: black;
+    /* -ms-overflow-style: none; */
+}
+/* body::-webkit-scrollbar {
+    display: none;
+} */
+
+.inputBar {
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.inputBar input {
+    font-size: 2rem;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+
+    border-style: none;
+    outline: none;
+    
+    background-color: inherit;
+    color: inherit;
+    /* background-color: rgba(0, 0 , 0, 0.5);
+    color: white; */
+}
+.cls {
+    font-size: 82vh;
+    margin-right: 1rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+
+.flipCard {
+    display: none;
+    /* width: 100%; */
+    padding: 0;
+    color: inherit;
+    background-color: inherit;
+    font-family: 'kakao';
+    
+}
+
+.onmouse {
+    background: rgba(187, 187, 187, 0.521);
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.description {
+    font-size: 1.4rem;
+    word-break: break-all;
+}
+
+
+
+ul {
+    list-style: none;
+    max-height: 30rem;
+    overflow: scroll;
+    margin: 0;
+}
+ul::-webkit-scrollbar {
+    display: none;
+}
+ul li {
+    /* margin-bottom: 1rem; */
+    padding: 1rem 2.5rem;
+    cursor: pointer;
+}
+
+
+.DictType {
+    padding: 2rem 2.5rem;
+    /* max-height: 10rem; */
+    overflow: hidden;
+    display: flex;
+}
+.DictType_title {
+    font-size: 2rem;
+    font-weight: bold;
+    display: inline-block;
+}
+.DictType_description {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    word-break: break-all;
+    display: flex;
+}
+.DictType_img {
+    margin-left: auto;
+    min-width: 10%;
+    max-width: 20%;
+    height: auto;
+}

@@ -1,0 +1,7 @@
+{
+    "name": "백과사전",
+    "start": "encyclopedia.js",
+    "keyword": ["백과사전", "백과"],
+    "client_id": "b36l5hoBiimlufPQsWYi",
+    "client_secret": "hJhNbdrMD0"
+}
