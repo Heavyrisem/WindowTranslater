@@ -1,5 +1,5 @@
 # WindowTranslater
-웹 번역기를 찾아 들어가기 귀찮아 만든 프로젝트 입니다.
+웹 번역기를 찾아 들어가기 번거로워 만든 프로젝트 입니다.
 디자인과 형태는 Mac OS의 Spotlight를 참고하여 만들었습니다.
 
 ## Electron.js
